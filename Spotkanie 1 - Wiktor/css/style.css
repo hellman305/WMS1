@@ -5,30 +5,24 @@ html,body{
 main{
     background: rgb(144, 190, 243);
 }
-h1{
+.index-title{
     font-weight: normal;
     color:rgb(8, 3, 41);
-}
-h2{
     font-style: italic;
     color: rgb(7, 7, 51);
 
 }
-div{
+.index-description{
     padding: 10px;
 }
-hr{
-    color: rgb(7, 7, 51);
-    height: 0px;
-}
-p{
+.index-description{
     font-size: 20px;
     color: rgb(7, 7, 51);
 }
-ul{
+.index-description{
   border: dotted 2.5px black;  
 }
-ol{
+.index-description{
     border: solid 2.5px black; 
     padding: 0px; 
     margin: 0px;
