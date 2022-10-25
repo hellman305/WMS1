@@ -2,32 +2,37 @@ html,body{
     padding: 0;
     margin: 0;
 }
-main{
-    background: rgb(144, 190, 243);
-}
-.index-title{
-    font-weight: normal;
-    color:rgb(8, 3, 41);
-    font-style: italic;
-    color: rgb(7, 7, 51);
 
+.container
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
 }
-.index-description{
-    padding: 10px;
+
+.navigation
+{
+    background:rgb(34, 34, 34);
+    color:lightgray;
+    padding: 5px;
+    text-align: center;
+} 
+
+.footer
+{
+    background:darkgrey;
 }
-.index-description{
+
+.title
+{
+    font-weight: normal;
+    font-size: 28px;
+    color: lightgrey;
+}
+
+.subtitle
+{
+    font-weight: lighter;
     font-size: 20px;
-    color: rgb(7, 7, 51);
+    color: lightgray;
 }
-.index-description{
-  border: dotted 2.5px black;  
-}
-.index-description{
-    border: solid 2.5px black; 
-    padding: 0px; 
-    margin: 0px;
-    background: yellowgreen;
-  }
-  footer{
-    background: rgb(14, 201, 107);
-  }
