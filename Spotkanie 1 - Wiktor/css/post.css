@@ -1,25 +1,24 @@
-body
-{
+body {
     background: lightgray;
 }
-.post
-{
-    background:white;
+
+.post {
+    background: white;
     border-radius: 45px;
-    width:700px;
+    width: 700px;
     padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.post-title
-{
+
+.post-title {
     font-style: italic;
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
 }
-.post-description
-{
+
+.post-description {
     text-align: justify;
     width: 80%;
     margin-left: auto;

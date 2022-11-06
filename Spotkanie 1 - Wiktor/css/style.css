@@ -1,38 +1,46 @@
-html,body{
+html,
+body {
     padding: 0;
     margin: 0;
 }
 
-.container
-{
+.container {
     margin-right: auto;
     margin-left: auto;
     width: 600px;
 }
 
-.navigation
-{
-    background:rgb(34, 34, 34);
-    color:lightgray;
+.navigation {
+    background: rgb(34, 34, 34);
+    color: lightgray;
     padding: 5px;
     text-align: center;
-} 
-
-.footer
-{
-    background:darkgrey;
 }
 
-.title
-{
+.footer {
+    background: darkgrey;
+    color: black;
+}
+
+.title {
     font-weight: normal;
     font-size: 28px;
     color: lightgrey;
 }
 
-.subtitle
-{
+.subtitle {
     font-weight: lighter;
     font-size: 20px;
     color: lightgray;
+}
+
+.full-column {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.half-column {
+    width: 49.75%;
+    box-sizing: border-box;
+    display: inline-block;
 }
