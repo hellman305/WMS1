@@ -1,18 +1,23 @@
 body
 {
-    background: lightgray;
+    background: #ffbfbf;
 }
 .post
 {
-    background:white;
+    background:#470000;
     border-radius: 45px;
     width:700px;
     padding: 15px;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+
 .post-title
 {
+    color: #ff8080;
     font-style: italic;
     font-size: 24px;
     margin-bottom: 10px;
@@ -20,8 +25,14 @@ body
 }
 .post-description
 {
+    color: #ff8080;
     text-align: justify;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+}
+
+footer
+{
+    color: #800000;
 }
