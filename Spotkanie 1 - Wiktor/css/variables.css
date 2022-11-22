@@ -1,0 +1,12 @@
+:root
+{
+    --footer-color: #f55951;
+    --primary-color: #543c52;
+    --primary-background: #edd2cb;
+    --secondary-color: #361d32; 
+}
+
+.post
+{
+    --primary-background:#f1e8e6;
+}

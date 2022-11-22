@@ -1,3 +1,4 @@
+@import "variables.css";
 html,
 body {
     padding: 0;
@@ -12,8 +13,8 @@ body {
 
 .navigation
 {
-    background: grey;
-    color:lightgray;
+    background: var(--secondary-color);
+    color: var(--footer-color);
     padding: 5px;
     text-align: center;
     width: 100%;
@@ -21,8 +22,8 @@ body {
 
 .footer
 {
-    background:#470000;
-    color: #ff8080;
+    background:var(--secondary-color);
+    color: var(--footer-color);
 }
 
 .title {

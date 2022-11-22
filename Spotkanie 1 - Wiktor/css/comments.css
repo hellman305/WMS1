@@ -1,6 +1,7 @@
+@import "variables.css";
 .comment
 {
-    background: #ff8080;
+    background: var(--primary-color);
     padding: 15px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -8,7 +9,7 @@
 
 .comment:hover
 {
-    background: #800000;
+    background: #352533;
 }
 
 .title
@@ -20,7 +21,7 @@
 {
     padding: 3px;
     border: solid;
-    border-color: #470000;
+    border-color: var(--secendary-color);
     border-width: 3px;
 }
 
