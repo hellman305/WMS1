@@ -1,11 +1,11 @@
 @import "variables.css";
-body
-{
-    background: lightgray;
+
+body {
+    background: #b0c2cf;
 }
-.post
-{
-    background:white;
+
+.post {
+    background: #e0f0ea;
     border-radius: 45px;
     width: 700px;
     padding: 15px;
@@ -15,22 +15,21 @@ body
     margin-left: auto;
     margin-right: auto;
 }
-.post-title
-{
+
+.post h2 {
     font-style: italic;
     font-size: 24px;
     margin-bottom: 10px;
     text-align: center;
 }
-.post-description
-{
+
+.post p {
     text-align: justify;
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 
-footer
-{
+footer {
     color: #800000;
 }

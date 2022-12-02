@@ -1,23 +1,24 @@
 @import "variables.css";
-table
-{
+
+table {
     border-collapse: collapse;
     border: solid 1px var(--secondary-color);
     width: 100%;
     margin-top: 35px;
     margin-bottom: 35px;
 }
-th , td
-{
+
+th,
+td {
     border: solid 1px var(--secondary-color);
     padding: 5px;
     text-align: center;
 }
-tr:nth-child(2n)
-{
-    background: var(--primary-background);
+
+tr:nth-child(2n) {
+    background: #e0f0ea;
 }
-img
-{
+
+img {
     width: 100%;
 }

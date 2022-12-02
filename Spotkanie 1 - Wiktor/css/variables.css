@@ -1,12 +1,11 @@
-:root
-{
-    --footer-color: #f55951;
-    --primary-color: #543c52;
-    --primary-background: #edd2cb;
-    --secondary-color: #361d32; 
+:root {
+    --footer-color: #e0f0ea;
+    --primary-color: #95adbe;
+    --color: #7b72a7;
+    --primary-background: #503a65;
+    --secondary-color: #3b2a4c;
 }
 
-.post
-{
-    --primary-background:#f1e8e6;
+.post {
+    --primary-background: #f8fcfa;
 }
