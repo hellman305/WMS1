@@ -6,31 +6,6 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
-.comment:hover
-{
-    background: #352533;
-}
-
-.title
-{
-    margin: 0px;
-}
-
-.user-name
-{
-    padding: 3px;
-    border: solid;
-    border-color: var(--secendary-color);
-    border-width: 3px;
-}
-
-.input:focus
-{
-    border: black;
-    border-width: 3px;
-}
-
 textarea
 {
     width: 100%;

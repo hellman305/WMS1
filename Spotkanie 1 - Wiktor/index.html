@@ -6,26 +6,37 @@
     <title>Spotkanie 1 - Strona Wiktor</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/post.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="navigation">
-        <a href="index.html" class="nav-item">Strona głowna</a>
-        <a href="comments.html" class="nav-item">Komentarze</a>
-        <a href="galery.html" class="nav-item">Galeria</a>
-        <a href="post.html" class="nav-item">Blog</a>
-        <a href="ranking.html" class="nav-item">Ranking</a>
-    </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Strona kadeta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Strona kadeta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="comments.html">Komentarze</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galery.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="post.html">Posty</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ranking.html">Ranking</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <main class="container">
 
-        <div class="post-title">
+        <div>
             <h1>Strona Wiktora</h1>
         </div>
         <hr>
-        <div class="title">
+        <div>
             <h2>O mnie</h2>
         </div>
-        <div class="subtittle">
+        <div>
             <p>
                 lubie grac w gry
             </p>
@@ -36,49 +47,27 @@
                 chodze do krolowki
             </p>
         </div>
-        <hr>
-        <div class="title">
-            <h2>Zainteresowania</h2>
-        </div>
-        <ul class="subtittle">
-            <li>
-                granie w language of legende
-            </li>
-            <li>
-                programowanie
-            </li>
-            <li>
-                tworzenie yt
-            </li>
-        </ul>
-        <hr>
-        <div class="container">
-            <h2 class="title">TOP 3 ulubionych filmów i seriali</h2>
-        </div>
-        <ol class="subtittle">
-            <li>
-                Star Wars 3
-            </li>
-            <li>
-                The Boys
-            </li>
-            <li>
-                LOTR
-            </li>
-        </ol>
     </main>
-    <footer class="footer">
-        <div>
-            <h2 class="container">Kontakt</h2>
-        </div>
-        <div style="display: inline-block;width:45%" class="container">
-            Opis: to strona testowa elo :sunglassesemote:
-        </div>
-        <div style="display: inline-block;width:45%" class="container">
-            Formy kontaktu tel. 2137 4206 6612
-            gmail: yasuosmietnik@gmail.com
+    <footer class="text-bg-secondary mt-3 p-3">
+        <div class="container">
+            <h2>Kontakt</h2>
+            <div class="row">
+                <div class="col-6">
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat ipsa delectus saepe, autem cum
+                        sit aspernatur repellendus blanditiis, sint quia consectetur, itaque iure ut expedita mollitia ipsum
+                        temporibus debitis.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p>Mail: przykladowy_mail@gmail.com</p>
+                    <p>Discord: Discord#1234</p>
+                </div>
+            </div>
         </div>
     </footer>
+
 </body>
 
 </html>

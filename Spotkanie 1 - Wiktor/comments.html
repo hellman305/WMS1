@@ -7,48 +7,70 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/comments.css">
     <link rel="stylesheet" href="css/post.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="navigation">
-        <a href="index.html" class="nav-item">Strona głowna</a>
-        <a href="comments.html" class="nav-item">Komentarze</a>
-        <a href="galery.html" class="nav-item">Galeria</a>
-        <a href="post.html" class="nav-item">Blog</a>
-        <a href="ranking.html" class="nav-item">Ranking</a>
-    </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Strona kadeta</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Strona kadeta</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="comments.html">Komentarze</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galery.html">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="post.html">Posty</a></li>
+                    <li class="nav-item"><a class="nav-link" href="ranking.html">Ranking</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <main class="container">
-        <div class="post-title">
+        <div>
             <h1>Komentarze</h1>
         </div>
         <div class="comment">
-            <h2 class="title">Maryla Rodowicz, 0.0.-999999</h2>
-            <h3 class="subtitle">mam 16 lat</h3>
+            <h2 class="lead">Maryla Rodowicz, 0.0.-999999</h2>
+            <h3>mam 16 lat</h3>
         </div>
         <div class="comment">
-            <h2 class="title">Jezus, 24.12.0</h2>
-            <h3 class="subtitle">narodzilem sie</h3>
+            <h2 class="lead">Jezus, 24.12.0</h2>
+            <h3>narodzilem sie</h3>
         </div>
         <div class="comment">
-            <h2 class="title">Gracz ligi, 10.10.2010</h2>
-            <h3 class="subtitle">yasuo to najlepszy champion</h3>
+            <h2 class="lead">Gracz ligi, 10.10.2010</h2>
+            <h3>yasuo to najlepszy champion</h3>
         </div>
-        <Input type="number"></Input>
-        <Input type="password"></Input>
-        <textarea name="tak" id="" cols="30" rows="10"></textarea>
+        <div class="row">
+            <div class="col-2"><input placeholder="nazwa uzytkownika" type="text" class="form-control">nazwa uzytkownika</input></div>
+            <div class="col-2"><input placeholder="e-mail" type="text" class="form-control">e-mail</input></div>
+        </div>
+        <textarea placeholder="pisz tu" name="tak" id="" cols="30" rows="10" class="form-control mt-3"></textarea>
+        <div class="row">
+            <div class="col-2"><button class="form-control mt-3 btn-primary">klikacz</button></div>
+        </div>
 
     </main>
 
-    <footer class="footer">
-        <div>
+    <footer class="text-bg-secondary mt-3 p-3">
+        <div class="container">
             <h2>Kontakt</h2>
-        </div>
-        <div style="display: inline-block;width:45%">
-            Opis: to strona testowa elo :sunglassesemote:
-        </div>
-        <div style="display: inline-block;width:45%">
-            Formy kontaktu tel. 2137 4206 6612
-            gmail: yasuosmietnik@gmail.com
+            <div class="row">
+                <div class="col-6">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum repellat ipsa delectus saepe, autem cum
+                        sit aspernatur repellendus blanditiis, sint quia consectetur, itaque iure ut expedita mollitia ipsum
+                        temporibus debitis.
+                    </p>
+                </div>
+                <div class="col-6">
+                    <p>Mail: przykladowy_mail@gmail.com</p>
+                    <p>Discord: Discord#1234</p>
+                </div>
+            </div>
         </div>
     </footer>
 </body>
