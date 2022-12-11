@@ -1,15 +1,3 @@
-@import "variables.css";
-img
-{
-    width: 100%;
-}
-img:hover
-{
+img:hover {
     opacity: 50%;
-}
-.img-link
-{
-    display: inline-block;
-    width: 27%;
-    margin: 10px;
 }
